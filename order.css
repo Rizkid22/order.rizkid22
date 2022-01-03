@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+  /*  box-sizing: border-box;*/
+    background-color: rgb(213, 209, 236);
+}
+.me{
+    width: 35.3%;
+    border-radius: 1em;
+}
+.container{
+    position: relative;
+    left: 23em;
+    top: 5em;
+    border-radius: 2em;
+}
+h3{
+    text-align: center;
+    border-radius: 1em;
+    background-color: white;
+}
+p{
+    background-color: white;
+}
+.first{
+    background-color: white;
+    width: 35.3%;
+    height: 350px;
+    border-radius: 1em;
+    text-align: center;
+    
+}
+button{
+    border: none;
+    border-radius: 1em;
+    background-color:whitesmoke;
+    /*padding: 1em;*/
+    width: 80%;
+}
+
+.imaging{
+    image:float;
+    background-color:whitesmoke;
+    position: relative;
+    right: 11em;
+    top: 1.5em;
+}
+.p-second{
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 2em;
+    right: 1em;
+    left: 6em;
+    width: 25%;
+    font-weight: bolder;
+}
+.p-first{
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 2em;
+    left: 6em;
+    width: 20%;
+}
+span{
+    background-color:whitesmoke;
+    color: purple;
+    position: relative;
+    left:11.5em;
+    bottom: 2.8em;
+    text-decoration: underline;
+}
+.second{
+    background-color: white;
+}
+.third{
+    background-color: white;
+    position: relative;
+    top: 15px;
+}
+.glow{
+    background-color: purple;
+    padding: 1em;
+}
+h5{
+    background-color: white;
+    position: relative;
+    top: 20px;
+}
+@media  only screen and (max-width:500px) {
+    body{
+        background-color: blue;
+    }
+}
+    
+}
